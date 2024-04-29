@@ -1,0 +1,745 @@
+.container {
+    height: 544px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: rgb(63, 102, 81);
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+}
+
+.item {
+    /* border: 2px solid yellow; */
+    margin: 10px 4px;
+    padding: 4px 5px;
+    /* display: flex;s */
+}
+
+#item1 {
+    width: 10%;
+    height: 20px;
+    position: absolute;
+    left: 10%;
+    top: 8%;
+}
+
+#item1 h2 {
+    color: white;
+    position: absolute;
+    top: -18px;
+
+}
+
+#item2 {
+    width: 30%;
+    height: 20px;
+    position: absolute;
+    right: 22%;
+    top: 8%;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline 4px solid yellow;
+    padding-top: 4%;
+}
+
+.navbar li {
+
+    list-style: none;
+    padding: 0px 23px;
+
+}
+
+#item3 {
+    width: 3%;
+    height: 20px;
+    right: 10%;
+    position: absolute;
+    top: 8%;
+}
+
+#item3 i {
+    filter: invert(100%);
+}
+
+#item4 {
+    width: 3%;
+    height: 20px;
+    right: 8%;
+    position: absolute;
+    top: 8%;
+}
+
+#item4 i {
+    filter: invert(100%);
+}
+
+.right {
+    /* border: 2px solid pink; */
+    width: 35%;
+    height: 62%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+#first {
+    /* border: 2px solid red; */
+    position: absolute;
+}
+#first h1{
+    color: white;
+    font-size: 3em;
+
+}
+#second {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 13%;
+}
+#second h1{
+    color: white;
+    font-size: 3em;
+
+}
+.right #third{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 35%;
+}
+.right #third p{
+    color: white;
+    font-weight: lighter;
+}
+.right #fourth #exp {
+    position: absolute;
+    top: 67%;
+    left: 23%;
+    border: 1px solid white;
+    border-radius: 24px;
+    font-size: 13px;
+    padding: 7px 25px;
+    background: transparent;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+.right #fourth #Shop{
+    position: absolute;
+    top: 67%;
+    left: 1%;
+    border: 1px solid white;
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 25px;
+    background: #a38b06;
+    color: black;
+}
+
+.left{
+    /* border: 2px solid brown; */
+    width: 45%;
+    height: 62%;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+}
+.left #dots{
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right: 5%;
+    top: -24%;
+
+}
+.left #dots img{
+    transform: rotate(123deg);
+    width: 80%;
+}
+.left #sofa{
+    position: absolute;
+    right: 17%;
+    /* border: 2px solid blue; */
+    top: -12%;
+}
+.left #sofa img{
+    width: 122%;
+    filter: drop-shadow(0px 10px 10px black);
+}
+
+/* --------------------------------------------------------------------------------- */
+
+.second-area{
+    /* border: 2px solid red; */
+    width: 100%;
+    left: 0;
+    background-color: rgb(218, 244, 237);
+    right: 0;
+    height: 488px;
+    display: flex;
+    position: absolute;
+    top: 33em;
+    padding: 10px 5px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.second-area #box1{
+    /* border: 2px solid green; */
+    width: 20%;
+    height: 75%;
+    padding: 2px 4px;
+    margin: 10px 4px;
+    /* position: absolute;
+    left: 10%; */
+}
+.second-area #box1 h2{
+    padding-left: 94px;
+}
+.second-area #box1 p{
+    font-weight: lighter;
+    font-stretch: expanded;
+    padding-left: 94px;
+}
+.btn{
+    padding-left: 94px;
+}
+.btn button{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 13px 29px;
+    margin-top: 26px;
+}
+.btn button:hover{
+    cursor: pointer;
+}
+.second-area #box2{
+    /* border: 2px solid green; */
+    width: 20%;
+    height: 75%;
+    padding: 2px 4px;
+    margin: 10px 4px;
+}
+.second-area #box2 #p1 p{
+    color: black;
+    position: absolute;
+    top: 45%;
+    padding-left: 7%;
+    font-weight: bold;
+}
+.second-area #box2 #p2 p{
+    color: black;
+    position: absolute;
+    top: 49%;
+    padding-left: 8%;
+    font-weight: bold;
+}
+.second-area #box2 img{
+    position: absolute;
+    padding-left: 3%;
+}
+.square{
+    height: 71%;
+    border-radius: 19px;
+    width: 60;
+    background-color: rgb(209 219 219);
+    margin-top: 20%;;
+}
+.second-area #box2 #symbol{
+    position: absolute;
+    top: 64%;
+    padding-left: 10%;
+}
+.second-area #box2 #symbol i:hover{
+    cursor: pointer;
+}
+.second-area #box3{
+    /* border: 2px solid violet; */
+    width: 20%;
+    height: 75%;
+    padding: 2px 4px;
+    margin: 10px 4px;
+    /* position: absolute;
+    right: 30%; */
+}
+.second-area #box3 #p1 p{
+    color: black;
+    position: absolute;
+    top: 45%;
+    padding-left: 7%;
+    font-weight: bold;
+}
+.second-area #box3 #p2 p{
+    color: black;
+    position: absolute;
+    top: 49%;
+    padding-left: 8%;
+    font-weight: bold;
+}
+.second-area #box3 img{
+    position: absolute;
+    padding-left: 3%;
+}
+
+.second-area #box4{
+    /* border: 2px solid yellow; */
+    width: 20%;
+    height: 75%;
+    padding: 2px 4px;
+    margin: 10px 4px;
+    /* position: absolute;
+    right: 10%; */
+}
+.second-area #box4 #p1 p{
+    color: black;
+    position: absolute;
+    top: 45%;
+    padding-left: 7%;
+    font-weight: bold;
+}
+.second-area #box4 #p2 p{
+    color: black;
+    position: absolute;
+    top: 49%;
+    padding-left: 8%;
+    font-weight: bold;
+}
+.second-area #box4 img{
+    position: absolute;
+    padding-left: 3%;
+}
+
+
+/*-----------------------------------------------------------------------*/
+.third-area{
+    /* border: 2px solid red; */
+    background-color: rgb(218, 244, 237);
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 613px;
+    display: flex;
+    position: absolute;
+    top: 60em;
+    padding: 10px 5px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.third-area #box1{
+        /* border: 2px solid green; */
+        width: 35%;
+        height: 75%;
+        padding: 2px 4px;
+        margin: 10px 4px;
+        /* position: absolute;
+        left: 10%; */
+}
+.third-area #box1 .content1{
+    display: flex;
+    justify-content: space-between;
+}
+.third-area #box1 .content1 #dabba1{
+    /* border: 2px solid rgb(255, 251, 0); */
+    width: 35%;
+    height: 10em;
+}
+.third-area #box1 .content1 #dabba1 i{
+    position: absolute;
+    /* right: 11%; */
+    padding-left: 2px;
+}
+.third-area #box1 .content1 #dabba1 .dot {
+    left: 10rem;
+    height: 22px;
+    width: 22px;
+    background-color: #e4f8f0;
+    border-radius: 50%;
+    position: absolute;
+    /* left: 11%; */
+    padding-left: 4px;
+    z-index: -1;
+    display: inline-block;
+}
+.third-area #box1 .content1 #dabba1 #p1 {
+    font-size: smaller;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.third-area #box1 .content1 #dabba1 #p2{
+    font-weight: lighter;
+
+}
+
+.third-area #box1 .content1 #dabba2{
+    /* border: 2px solid rgb(255, 251, 0); */
+    width: 35%;
+    height: 10em;
+}
+.third-area #box1 .content1 #dabba2 i{
+    position: absolute;
+    /* right: 11%; */
+    padding-left: 2px;
+}
+.third-area #box1 .content1 #dabba2 .dot {
+    left: 31rem;
+    height: 22px;
+    width: 22px;
+    background-color: #e4f8f0;
+    border-radius: 50%;
+    position: absolute;
+    /* left: 11%; */
+    padding-left: 4px;
+    z-index: -1;
+    display: inline-block;
+}
+.third-area #box1 .content1 #dabba2 #p1 {
+    font-size: smaller;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.third-area #box1 .content1 #dabba1 #p2{
+    font-weight: lighter;
+}
+.third-area #box1 .content2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+.third-area #box1 .content2 #dabba3{
+    /* border: 2px solid rgb(255, 251, 0); */
+    width: 35%;
+    height: 10em;
+}
+.third-area #box1 .content2 #dabba3 i{
+    position: absolute;
+    /* right: 11%; */
+    padding-left: 2px;
+}
+.third-area #box1 .content2 #dabba3 .dot {
+    left: 10rem;
+    height: 22px;
+    width: 22px;
+    background-color: #e4f8f0;
+    border-radius: 50%;
+    position: absolute;
+    /* left: 11%; */
+    padding-left: 4px;
+    z-index: -1;
+    display: inline-block;
+}
+.third-area #box1 .content2 #dabba3 #p1 {
+    font-size: smaller;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.third-area #box1 .content2 #dabba3 #p2{
+    font-weight: lighter;
+
+}
+.third-area #box1 .content2 #dabba4{
+    /* border: 2px solid rgb(255, 251, 0); */
+    width: 35%;
+    height: 10em;
+}
+.third-area #box1 .content2 #dabba4 i{
+    position: absolute;
+    /* right: 11%; */
+    padding-left: 2px;
+}
+.third-area #box1 .content2 #dabba4 .dot {
+    left: 31rem;
+    height: 22px;
+    width: 22px;
+    background-color: #e4f8f0;
+    border-radius: 50%;
+    position: absolute;
+    /* left: 11%; */
+    padding-left: 4px;
+    z-index: -1;
+    display: inline-block;
+}
+.third-area #box1 .content2 #dabba4 #p1 {
+    font-size: smaller;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.third-area #box1 .content2 #dabba4 #p2{
+    font-weight: lighter;
+
+}
+.third-area #box2{
+    /* border: 2px solid yellow; */
+    width: 35%;
+    height: 75%;
+    padding: 2px 4px;
+    margin: 10px 4px;
+    /* position: absolute;
+    right: 10%; */
+}
+.third-area #box2 img{
+    width: 33%;
+    position: absolute;
+    height: 75%;
+    border-radius: 22px;
+    right: 10%;
+}
+
+/* --------------------------------------------------- */
+.fourth-area{
+    /* border: 2px solid red; */
+    background-color: rgb(218, 244, 237);
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 613px;
+    display: flex;
+    position: absolute;
+    top: 95em;
+    padding: 10px 5px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.fourth-area #box1{
+    /* border: 2px solid green; */
+    width: 40%;
+    height: 75%;
+    padding: 2px 4px;
+    margin: 10px 4px;
+    /* position: absolute;
+    left: 10%; */
+}
+.fourth-area #box1 .dabba1{
+    /* border: 2px solid blue; */
+    width: 20%;
+    height: 70%;
+    position: absolute;
+}
+.fourth-area #box1 .dabba1 img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+.fourth-area #box1 .dabba2{
+    /* border: 2px solid blue; */
+    width: 13%;
+    height: 22%;
+    position: absolute;
+    right: 54%;
+}
+.fourth-area #box1 .dabba2 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.fourth-area #box1 .dabba3{
+    /* border: 2px solid blue; */
+    width: 20%;
+    height: 47%;
+    position: absolute;
+    right: 54%;
+    top: 12em;
+}
+.fourth-area #box1 .dabba3 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.fourth-area #box2{
+    /* border: 2px solid green; */
+    width: 30%;
+    height: 75%;
+    padding: 2px 4px;
+    margin: 10px 4px;
+    /* position: absolute;
+    left: 10%; */
+}
+.b{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 44%;
+    display: flex;
+    justify-content: space-between;
+}
+.fourth-area #box2 .b #line1{
+    /* border: 2px solid blue; */
+    width: 45%;
+    height: 100%;
+}
+.fourth-area #box2 .b #line1 li{
+    list-style-type: circle;
+    padding: 5px 2px;
+}
+.fourth-area #box2 .b #line2{
+    /* border: 2px solid blue; */
+    width: 45%;
+    height: 100%;   
+}
+.fourth-area #box2 .b #line2 li{
+    list-style-type: circle;
+    padding: 5px 2px;
+}
+.fourth-area #box2 .bt{
+    padding: 2px 5px;
+}
+.fourth-area #box2 .bt button{
+    padding: 8px 19px;
+    font-size: large;
+    background: black;
+    color: white;
+    border-radius: 31px;
+}
+/* ---------------------------------------------------------- */
+.fifth-area{
+/* border: 2px solid red; */
+background-color: rgb(218, 244, 237);
+width: 100%;
+left: 0;
+right: 0;
+height: 193px;
+display: flex;
+position: absolute;
+top: 126em;
+padding: 10px 5px;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.fifth-area #box1{
+    /* border: 2px solid green; */
+    width: 25%;
+    height: 75%;
+    padding: 2px 4px;
+    margin: 10px 4px;
+    /* position: absolute;
+    left: 10%; */
+}
+.fifth-area #box1 .dabba1{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 10%;
+    height: 65%;
+    left: 10%;
+}
+.fifth-area #box1 .dabba1 img{
+    width: 93%;
+    position: absolute;
+    height: 102%;
+}
+.fifth-area #box1 .dabba2{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 21%;
+    width: 10%;
+    height: 65%;
+}
+.fifth-area #box1 .dabba2 h2{
+    font-size: 18px;
+}
+.fifth-area #box1 .dabba2 p{
+    font-size: 13px;
+    font-weight: lighter;
+}
+.fifth-area #box1 .dabba2 #bn p{
+    font-weight: bold;
+}
+.fifth-area #box2{
+    /* border: 2px solid green; */
+    width: 25%;
+    height: 75%;
+    padding: 2px 4px;
+    margin: 10px 4px;
+    /* position: absolute;
+    left: 10%; */
+}
+.fifth-area #box2 .dabba1{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 10%;
+    height: 65%;
+    left: 38%;
+}
+.fifth-area #box2 .dabba1 img{
+    width: 93%;
+    position: absolute;
+    height: 102%;
+}
+.fifth-area #box2 .dabba2{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 50%;
+    width: 10%;
+    height: 65%;
+}
+.fifth-area #box2 .dabba2 h2{
+    font-size: 18px;
+}
+.fifth-area #box2 .dabba2 p{
+    font-size: 13px;
+    font-weight: lighter;
+}
+.fifth-area #box2 .dabba2 #bn p{
+    font-weight: bold;
+}
+.fifth-area #box3{
+    /* border: 2px solid green; */
+    width: 25%;
+    height: 75%;
+    padding: 2px 4px;
+    margin: 10px 4px;
+    /* position: absolute;
+    left: 10%; */
+}
+.fifth-area #box3{
+    /* border: 2px solid green; */
+    width: 25%;
+    height: 75%;
+    padding: 2px 4px;
+    margin: 10px 4px;
+    /* position: absolute;
+    left: 10%; */
+}
+.fifth-area #box3 .dabba1{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 10%;
+    height: 65%;
+    left: 69%;
+}
+.fifth-area #box3 .dabba1 img{
+    width: 93%;
+    position: absolute;
+    height: 102%;
+}
+.fifth-area #box3 .dabba2{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 80%;
+    width: 10%;
+    height: 65%;
+}
+.fifth-area #box3 .dabba2 h2{
+    font-size: 18px;
+}
+.fifth-area #box3 .dabba2 p{
+    font-size: 13px;
+    font-weight: lighter;
+}
+.fifth-area #box3 .dabba2 #bn p{
+    font-weight: bold;
+}
